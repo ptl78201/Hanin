@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Hanlib5 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\kathy\LOCALS~1\Temp\RSP3923.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\inc" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/Hanlib5.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Data\Hanin\Hanin5\Hanlib5\big5e.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kathy\LOCALS~1\Temp\RSP3923.tmp" 
+Creating temporary file "C:\DOCUME~1\kathy\LOCALS~1\Temp\RSP3924.tmp" with contents
+[
+/nologo /out:"Debug\Hanlib5.lib" 
+.\Debug\ALLGET.OBJ
+.\Debug\big5e.obj
+.\Debug\CHOICE.OBJ
+.\Debug\CHUIN.OBJ
+.\Debug\CMP2PIN.OBJ
+.\Debug\COMPRESS.OBJ
+.\Debug\ESC.OBJ
+.\Debug\Haninif.obj
+.\Debug\LD_FUN.OBJ
+.\Debug\MATCH.OBJ
+.\Debug\MD_FUN.OBJ
+.\Debug\OS2API.OBJ
+.\Debug\PININ.OBJ
+.\Debug\REAL.OBJ
+.\Debug\RULE.OBJ
+.\Debug\SCREN.OBJ
+.\Debug\SHOW_PIN.OBJ
+.\Debug\UD_FUN.OBJ
+.\Debug\UNIT.OBJ
+.\Debug\UP_DOWN.OBJ
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\kathy\LOCALS~1\Temp\RSP3924.tmp"
+<h3>Output Window</h3>
+Compiling...
+big5e.c
+d:\data\hanin\hanin5\hanlib5\big5e.c(72) : warning C4761: integral size mismatch in argument; conversion supplied
+Creating library...
+Creating temporary file "C:\DOCUME~1\kathy\LOCALS~1\Temp\RSP3925.bat" with contents
+[
+@echo off
+copy .\debug\*.lib ..\lib
+]
+Creating command line "C:\DOCUME~1\kathy\LOCALS~1\Temp\RSP3925.bat"
+
+.\debug\Hanlib5.lib
+複製了         1 個檔案。
+<h3>
+--------------------Configuration: TestApp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\kathy\LOCALS~1\Temp\RSP3926.tmp" with contents
+[
+hanlib5.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/TestApp.pdb" /debug /machine:I386 /nodefaultlib:"libcd.lib" /out:"Debug/TestApp.exe" /pdbtype:sept /libpath:"..\lib" 
+.\Debug\ChildFrm.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\TestApp.obj
+.\Debug\TestAppDoc.obj
+.\Debug\TestAppView.obj
+.\Debug\TestApp.res
+\Data\Hanin\Hanin5\Hanlib5\Debug\Hanlib5.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\kathy\LOCALS~1\Temp\RSP3926.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+TestApp.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
