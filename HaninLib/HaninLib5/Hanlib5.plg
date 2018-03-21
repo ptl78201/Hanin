@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Hanlib5 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\kathy\LOCALS~1\Temp\RSP25A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\inc" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/Hanlib5.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Data\Hanin\Hanin5\Hanlib5\ALLGET.C"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kathy\LOCALS~1\Temp\RSP25A.tmp" 
+Creating temporary file "C:\DOCUME~1\kathy\LOCALS~1\Temp\RSP25B.tmp" with contents
+[
+/nologo /out:"Debug\Hanlib5.lib" 
+.\Debug\ALLGET.OBJ
+.\Debug\CHOICE.OBJ
+.\Debug\CHUIN.OBJ
+.\Debug\CMP2PIN.OBJ
+.\Debug\COMPRESS.OBJ
+.\Debug\ESC.OBJ
+.\Debug\Haninif.obj
+.\Debug\LD_FUN.OBJ
+.\Debug\MATCH.OBJ
+.\Debug\MD_FUN.OBJ
+.\Debug\OS2API.OBJ
+.\Debug\PININ.OBJ
+.\Debug\REAL.OBJ
+.\Debug\RULE.OBJ
+.\Debug\SCREN.OBJ
+.\Debug\SHOW_PIN.OBJ
+.\Debug\UD_FUN.OBJ
+.\Debug\UNIT.OBJ
+.\Debug\UP_DOWN.OBJ
+.\Debug\big5e.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\kathy\LOCALS~1\Temp\RSP25B.tmp"
+<h3>Output Window</h3>
+Compiling...
+ALLGET.C
+Creating library...
+Creating temporary file "C:\DOCUME~1\kathy\LOCALS~1\Temp\RSP25C.bat" with contents
+[
+@echo off
+copy .\debug\*.lib ..\lib
+]
+Creating command line "C:\DOCUME~1\kathy\LOCALS~1\Temp\RSP25C.bat"
+
+.\debug\Hanlib5.lib
+複製了         1 個檔案。
+
+
+
+<h3>Results</h3>
+Hanlib5.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
