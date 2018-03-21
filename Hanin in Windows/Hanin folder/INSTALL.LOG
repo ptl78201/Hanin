@@ -1,0 +1,68 @@
+*** Installation Started 3/6/8 14:36 ***
+Title: 漢音輸入法
+Source: D:\SOFTWA~1\PTL\HANINV~1.02\INSTALL.EXE
+Made Dir: C:\HANIN
+Made Dir: C:\HANIN\USR_FILE
+File Copy: C:\HANIN\ADR.DIC
+File Copy: C:\HANIN\AIMEI.DIC
+File Copy: C:\HANIN\HQUERY.DIC
+File Copy: C:\HANIN\NAME.DIC
+File Copy: C:\HANIN\HANIN.DIC
+File Copy: C:\HANIN\USR_FILE\$USR001.KBD
+File Copy: C:\HANIN\INSIME95.EXE
+File Copy: C:\WINDOWS\SYSTEM32\HANIN95.IME
+File Copy: C:\WINDOWS\WHANIN.INI
+File Copy: C:\HANIN\TOOLS95.EXE
+File Copy: C:\HANIN\QUERY95.EXE
+File Copy: C:\HANIN\README95.TXT
+File Copy: C:\HANIN\HANIN95.HLP
+INI File: C:\WINDOWS\WHANIN.INI
+INI Sect: Hanin IME
+INI Item: PathSettings
+INI Val: C:\HANIN
+INI Old: C:\HANIN
+INI File: C:\WINDOWS\WHANIN.INI
+INI Sect: Hanin IME
+INI Item: MainDic
+INI Val: C:\HANIN\HANIN.DIC
+INI Old: C:\HANIN\HANIN.DIC
+INI File: C:\WINDOWS\WHANIN.INI
+INI Sect: Hanin IME
+INI Item: AddrDic
+INI Val: C:\HANIN\ADR.DIC
+INI Old: C:\HANIN\ADR.DIC
+INI File: C:\WINDOWS\WHANIN.INI
+INI Sect: Hanin IME
+INI Item: AimeiDic
+INI Val: C:\HANIN\AIMEI.DIC
+INI Old: C:\HANIN\AIMEI.DIC
+INI File: C:\WINDOWS\WHANIN.INI
+INI Sect: Hanin IME
+INI Item: NameDic
+INI Val: C:\HANIN\NAME.DIC
+INI Old: C:\HANIN\NAME.DIC
+INI File: C:\WINDOWS\WHANIN.INI
+INI Sect: Hanin IME
+INI Item: UserDic
+INI Val: C:\HANIN\USR_FILE\$USR000.DIC
+INI Old: C:\HANIN\USR_FILE\$USR000.DIC
+INI File: C:\WINDOWS\WHANIN.INI
+INI Sect: Hanin IME
+INI Item: UserName
+INI Val: Philip
+Icon Group: 漢音輸入法
+Icon Name: 漢音工具箱
+Icon Cmd: C:\HANIN\TOOLS95.EXE
+Icon Group: 漢音輸入法
+Icon Name: 字典查詢
+Icon Cmd: C:\HANIN\QUERY95.EXE
+Icon Group: 漢音輸入法
+Icon Name: 漢音說明
+Icon Cmd: C:\HANIN\HANIN95.HLP
+Icon Group: 漢音輸入法
+Icon Name: 漢音讀我檔案
+Icon Cmd: C:\HANIN\README95.TXT C:\HANIN\INSTALL.LOG
+INI File: C:\WINDOWS\WHANIN.INI
+INI Sect: Hanin IME
+INI Item: Group
+INI Val: 漢音輸入法
